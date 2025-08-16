@@ -39,7 +39,7 @@ python-docx = "^1.1.0"
 langchain-openai = "^0.1.1"
 langchain-google-genai = "^0.0.11"
 lxml = { version = ">=4.9.2", extras = ["html_clean"] }
-unstructured = "^0.13.0"
+unstructured = ">=0.13,<0.19"
 
 [build-system]
 requires = ["poetry-core"]
